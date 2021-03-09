@@ -1,0 +1,652 @@
+/* リセットCSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 大枠 */
+body {
+	top: 0px;
+    left: 0px;
+    width: 1194px;
+    height: 834px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/* ヘッダー */
+header {
+    top: 0px;
+    left: 1px;
+    width: 1194px;
+    height: 60px;
+	
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.cloud-fill {
+	position: absolute;
+    top: 14px;
+	left: 85px;
+	width: 48px;
+	height: 33px;
+	background: transparent url('img/cloud-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.box-arrow-right {
+	position: absolute;
+	top: 13px;
+	left: 1134px;
+	width: 47px;
+	height: 34px;
+	background: transparent url('img/box-arrow-right.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/* 検索欄 */
+.user_name_box {
+	position: absolute;
+	top: 11px;
+	left: 678px;
+	width: 159px;
+	height: 37px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.user_name {
+	position: absolute;
+	top: 22px;
+	left: 695px;
+	width: 63px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/16px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;
+}
+
+.search_box {
+	position: absolute;
+	top: 11px;
+	left: 847px;
+	width: 152px;
+	height: 37px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.search_button {
+	position: absolute;
+	top: 6px;
+	left: 1015px;
+	width: 83px;
+	height: 46px;
+	background: #325FB4 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 31px;
+	opacity: 1;
+}
+
+.search_button_text {
+	position: absolute;
+	top: 18px;
+	left: 1034px;
+	width: 46px;
+	height: 23px;
+	text-align: center;
+	font: normal normal normal 23px/24px SF Pro Text;
+	letter-spacing: -0.44px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+/* メニュー */
+.menu {
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	width: 68px;
+	height: 834px;
+	background: #325FB4 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.select {
+	position: absolute;
+	top: 95px;
+	left: 1px;
+	width: 68px;
+	height: 58px;
+	background: #1513135A 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.list {
+	position: absolute;
+	top: 19px;
+	left: 18px;
+	width: 34px;
+	height: 28px;
+	background: transparent url('img/customer_information_portal/list.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.house-fill {
+	position: absolute;
+	top: 101px;
+	left: 15px;
+	width: 36px;
+	height: 39px;
+	background: transparent url('img/customer_information_portal/house-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.table {
+	position: absolute;
+	top: 168px;
+	left: 14px;
+	width: 43px;
+	height: 43px;
+	background: transparent url('img/customer_information_portal/table.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.layout-split {
+	position: absolute;
+	top: 235px;
+	left: 14px;
+	width: 45px;
+	height: 40px;
+	background: transparent url('img/customer_information_portal/layout-split.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.list-task {
+	position: absolute;
+	top: 303px;
+	left: 12px;
+	width: 45px;
+	height: 34px;
+	background: transparent url('img/customer_information_portal/list-task.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.list-check {
+	position: absolute;
+	top: 364px;
+	left: 8px;
+	width: 53px;
+	height: 40px;
+	background: transparent url('img/customer_information_portal/list-check.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.people-fill {
+	position: absolute;
+	top: 433px;
+	left: 10px;
+	width: 54px;
+	height: 41px;
+	background: transparent url('img/customer_information_portal/people-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/* プロフィール */
+.photo_flame {
+	position: absolute;
+	top: 103px;
+	left: 117px;
+	width: 100px;
+	height: 100px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.person-fill {
+	position: absolute;
+	top: 111px;
+	left: 125px;
+	width: 84px;
+	height: 84px;
+	background: transparent url('img/customer_information_portal/person-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.business_unit {
+	position: absolute;
+	top: 103px;
+	left: 233px;
+	width: 105px;
+	height: 21px;
+	text-align: left;
+	font: normal normal normal 21px/21px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.name {
+	position: absolute;
+	top: 138px;
+	left: 233px;
+	width: 120px;
+	height: 30px;
+	text-align: left;
+	font: normal normal normal 30px/30px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.date {
+	position: absolute;
+	top: 182px;
+	left: 233px;
+	width: 150px;
+	height: 15px;
+	text-align: left;
+	font: normal normal normal 15px/15px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+/* ToDo */
+.todo_box {
+	position: absolute;
+	top: 95px;
+	left: 469px;
+	width: 684px;
+	height: 108px;
+	background: #F8F9FB 0% 0% no-repeat padding-box;
+	border: 1px solid #C6C8CA;
+	border-radius: 4px;
+	opacity: 1;
+}
+
+.todo {
+	position: absolute;
+	top: 104px;
+	left: 481px;
+	width: 46px;
+	height: 20px;
+	text-align: left;
+	font: normal normal normal 20px/24px SF Pro Text;
+	letter-spacing: -0.38px;
+	color: #212529;
+	opacity: 1;
+}
+
+.todo_content {
+	position: absolute;
+	top: 131px;
+	left: 481px;
+	width: 356px;
+	height: 38px;
+	text-align: left;
+	font: normal normal normal 14px/24px SF Pro Text;
+	letter-spacing: -0.27px;
+	color: #212529;
+	opacity: 1;
+}
+
+/* 顧客情報box1 */
+.customerbox1 {
+	position: absolute;
+	top: 227px;
+	left: 117px;
+	width: 332px;
+	height: 354px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+.border1 {
+	position: absolute;
+	top: 276px;
+	left: 127px;
+	width: 314px;
+	height: 0px;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.customername1 {
+	position: absolute;
+	top: 244px;
+	left: 215px;
+	width: 136px;
+	height: 17px;
+	text-align: center;
+	font: normal normal normal 17px/29px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.action_log1 {
+	position: absolute;
+	top: 287px;
+	left: 128px;
+	width: 52px;
+	height: 13px;
+	text-align: center;
+	font: normal normal normal 13px/23px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.button {
+	position: absolute;
+	top: 275px;
+	left: 400px;
+}
+
+.action_log_content1 {
+	position: absolute;
+	top: 303px;
+	left: 133px;
+	width: 192px;
+	height: 12px;
+	text-align: left;
+	font: normal normal normal 12px/18px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.news1 {
+	position: absolute;
+	top: 372px;
+	left: 127px;
+	width: 26px;
+	height: 13px;
+	text-align: center;
+	font: normal normal normal 13px/23px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.news_content1 {
+	position: absolute;
+	top: 393px;
+	left: 133px;
+	width: 192px; /* 151pxから192pxへ変更 */
+	height: 12px;
+	text-align: left;
+	font: normal normal normal 12px/18px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.matter_list1 {
+	position: absolute;
+	top: 474px;
+	left: 128px;
+	width: 52px;
+	height: 13px;
+	text-align: center;
+	font: normal normal normal 13px/23px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+/* 顧客情報box2 */
+.customerbox2 {
+	position: absolute;
+	top: 227px;
+	left: 469px;
+	width: 332px;
+	height: 354px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+.border2 {
+	position: absolute;
+	top: 276px;
+	left: 479px;
+	width: 314px;
+	height: 0px;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.customername2 {
+	position: absolute;
+	top: 244px;
+	left: 534px;
+	width: 205px; /* 202pxから205pxへ変更 */
+	height: 17px;
+	text-align: center;
+	font: normal normal normal 17px/29px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.action_log2 {
+	position: absolute;
+	top: 287px;
+	left: 480px;
+	width: 52px;
+	height: 13px;
+	text-align: center;
+	font: normal normal normal 13px/23px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.action_log_content2 {
+	position: absolute;
+	top: 303px;
+	left: 485px;
+	width: 192px;
+	height: 12px;
+	text-align: left;
+	font: normal normal normal 12px/18px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.news2 {
+	position: absolute;
+	top: 372px;
+	left: 480px;
+	width: 26px;
+	height: 13px;
+	text-align: center;
+	font: normal normal normal 13px/23px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.news_content2 {
+	position: absolute;
+	top: 393px;
+	left: 485px;
+	width: 192px; /* 192pxへ変更 */
+	height: 12px;
+	text-align: left;
+	font: normal normal normal 12px/18px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.matter_list2 {
+	position: absolute;
+	top: 474px;
+	left: 480px;
+	width: 52px;
+	height: 13px;
+	text-align: center;
+	font: normal normal normal 13px/23px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+/* 顧客情報box3 */
+.customerbox3 {
+	position: absolute;
+	top: 227px;
+	left: 821px;
+	width: 332px;
+	height: 354px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+.border3 {
+	position: absolute;
+	top: 276px;
+	left: 831px;
+	width: 314px;
+	height: 0px;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.customername3 {
+	position: absolute;
+	top: 244px;
+	left: 877px;
+	width: 220px;
+	height: 17px;
+	text-align: center;
+	font: normal normal normal 17px/29px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.action_log3 {
+	position: absolute;
+	top: 287px;
+	left: 832px;
+	width: 52px;
+	height: 13px;
+	text-align: center;
+	font: normal normal normal 13px/23px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.action_log_content3 {
+	position: absolute;
+	top: 303px;
+	left: 837px;
+	width: 180px;
+	height: 30px;
+	text-align: left;
+	font: normal normal normal 12px/18px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.news3 {
+	position: absolute;
+	top: 372px;
+	left: 832px;
+	width: 26px;
+	height: 13px;
+	text-align: center;
+	font: normal normal normal 13px/23px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.news_content3 {
+	position: absolute;
+	top: 393px;
+	left: 837px;
+	width: 144px;
+	height: 12px;
+	text-align: left;
+	font: normal normal normal 12px/18px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.matter_list3 {
+	position: absolute;
+	top: 474px;
+	left: 832px;
+	width: 52px;
+	height: 13px;
+	text-align: center;
+	font: normal normal normal 13px/23px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+/* 顧客検索 */
+.customer_search_box {
+	position: absolute;
+	top: 640px;
+	left: 117px;
+	width: 332px;
+	height: 42px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;	
+}
+
+.customer_search_text {
+	position: absolute;
+	top: 654px;
+	left: 133px;
+	width: 60px;
+	height: 15px;
+	text-align: center;
+	font: normal normal normal 15px/15px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.search {
+	position: absolute;
+	top: 648px;
+	left: 413px;
+	width: 28px;
+	height: 28px;
+	background: transparent url('img/customer_information_portal/search.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.customer_search_result {
+	position: absolute;
+	top: 708px;
+	left: 117px;
+	width: 150px;
+	height: 15px;
+	text-align: center;
+	font: normal normal normal 15px/26px Hiragino Kaku Gothic ProN;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;		
+}
+/* ここまで */

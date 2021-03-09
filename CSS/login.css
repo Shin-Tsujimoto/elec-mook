@@ -1,0 +1,120 @@
+/* リセットCSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 大枠 */
+body {
+	top: 0px;
+    left: 0px;
+    width: 1194px;
+    height: 834px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/* 見出し */
+header {
+    top: 0px;
+    left: 1px;
+    width: 1194px;
+    height: 60px;
+	
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.cloud-fill {
+	position:absolute;
+    top: 14px;
+	left: 85px;
+	width: 48px;
+	height: 33px;
+	background: transparent url('img/cloud-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.box-arrow-right {
+	position:absolute;
+	top: 13px;
+	left: 1134px;
+	width: 47px;
+	height: 34px;
+	background: transparent url('img/box-arrow-right.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+h1 {
+	position:absolute;
+	top: 301px;
+	left: 351px;
+	width: 493px;
+	height: 79px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+h2 {
+	position:absolute;
+    top: 395px;
+	left: 351px;
+	width: 493px;
+	height: 79px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+h3 {
+	position:absolute;
+	top: 489px;
+	left: 351px;
+	width: 493px;
+	height: 79px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.User_id {
+	position:absolute;
+	top: 323px;
+	left: 534px;
+	width: 128px;
+	height: 36px;
+	text-align: left;
+	font: normal normal normal 36px/36px Hiragino Kaku Gothic ProN; /* 36px/61pxを36px/36pxに修正 */
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.Password {
+	position:absolute;
+	top: 417px;
+	left: 512px;
+	width: 172px;
+	height: 36px;
+	text-align: left;
+	font: normal normal normal 36px/36px Hiragino Kaku Gothic ProN; /* 36px/61pxを36px/36pxに修正 */
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.Login {
+	position:absolute;
+	top: 509px;
+	left: 549px;
+	width: 98px;
+	height: 36px;
+	text-align: left;
+	font: normal normal normal 36px/36px Hiragino Kaku Gothic ProN; /* 36px/61pxを36px/36pxに修正 */
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+/* ここまで */

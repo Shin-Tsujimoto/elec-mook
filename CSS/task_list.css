@@ -1,0 +1,1418 @@
+/* リセットCSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 大枠 */
+body {
+	top: 0px;
+    left: 0px;
+    width: 1194px;
+    height: 834px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/* ヘッダー */
+header {
+    top: 0px;
+    left: 1px;
+    width: 1194px;
+    height: 60px;
+	
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.cloud-fill {
+	position: absolute;
+    top: 14px;
+	left: 85px;
+	width: 48px;
+	height: 33px;
+	background: transparent url('img/cloud-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.box-arrow-right {
+	position: absolute;
+	top: 13px;
+	left: 1134px;
+	width: 47px;
+	height: 34px;
+	background: transparent url('img/box-arrow-right.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/* 検索欄 */
+.user_name_box {
+	position: absolute;
+	top: 11px;
+	left: 678px;
+	width: 159px;
+	height: 37px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.user_name {
+	position: absolute;
+	top: 22px;
+	left: 695px;
+	width: 63px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/16px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;
+}
+
+.search_box {
+	position: absolute;
+	top: 11px;
+	left: 847px;
+	width: 152px;
+	height: 37px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.search_button {
+	position: absolute;
+	top: 6px;
+	left: 1015px;
+	width: 83px;
+	height: 46px;
+	background: #325FB4 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 31px;
+	opacity: 1;
+}
+
+.search_button_text {
+	position: absolute;
+	top: 18px;
+	left: 1034px;
+	width: 46px;
+	height: 23px;
+	text-align: center;
+	font: normal normal normal 23px/24px SF Pro Text;
+	letter-spacing: -0.44px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+/* メニュー */
+.menu {
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	width: 68px;
+	height: 834px;
+	background: #325FB4 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.select {
+	position: absolute;
+	top: 359px;
+	left: 0px;
+	width: 68px;
+	height: 58px;
+	background: #1513135A 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.list {
+	position: absolute;
+	top: 19px;
+	left: 18px;
+	width: 34px;
+	height: 28px;
+	background: transparent url('img/customer_information_portal/list.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.house-fill {
+	position: absolute;
+	top: 101px;
+	left: 15px;
+	width: 36px;
+	height: 39px;
+	background: transparent url('img/customer_information_portal/house-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.table {
+	position: absolute;
+	top: 168px;
+	left: 14px;
+	width: 43px;
+	height: 43px;
+	background: transparent url('img/customer_information_portal/table.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.layout-split {
+	position: absolute;
+	top: 235px;
+	left: 14px;
+	width: 45px;
+	height: 40px;
+	background: transparent url('img/customer_information_portal/layout-split.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.list-task {
+	position: absolute;
+	top: 303px;
+	left: 12px;
+	width: 45px;
+	height: 34px;
+	background: transparent url('img/customer_information_portal/list-task.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.list-check {
+	position: absolute;
+	top: 364px;
+	left: 8px;
+	width: 53px;
+	height: 40px;
+	background: transparent url('img/customer_information_portal/list-check.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.people-fill {
+	position: absolute;
+	top: 433px;
+	left: 10px;
+	width: 54px;
+	height: 41px;
+	background: transparent url('img/customer_information_portal/people-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/* タスク一覧 */
+.matter_name {
+	position: absolute;
+	top: 97px;
+	left: 105px;
+	width: 150px;
+	height: 29px;
+	text-align: left;
+	font: normal normal bold 26px/25px SF Pro Text;
+	letter-spacing: -0.78px;
+	color: #212529;
+	opacity: 1;
+}
+
+.name_box {
+	position: absolute;
+	top: 97px;
+	left: 243px;
+	width: 102px;
+	height: 26px;
+	background: #F8F9FA 0% 0% no-repeat padding-box;
+	border-radius: 160px;
+	opacity: 1;		
+}
+
+.name {
+	position: absolute;
+	top: 104px;
+	left: 268px;
+	width: 52px;
+	height: 13px;
+	text-align: left;
+	font: normal normal bold 13px/13px SF Pro Text;
+	letter-spacing: 0px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.box {
+	overflow: auto;
+	position: absolute;
+	top: 155px;
+	left: 106px;
+	width: 1052px;
+	height: 619px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;    /* IE, Edge 対応 */
+  	scrollbar-width: none;       /* Firefox 対応 */
+}
+.box::-webkit-scrollbar {  /* Chrome, Safari 対応 */
+  display:none;
+}
+
+.matter_name_body {
+	position: absolute;
+	top: 0px;  /* -206 */
+	left: 0px;  /* -105 */
+	width: 1053px;
+	height: 822px;
+	opacity: 1;	
+}
+
+.label_body {
+	position: absolute;
+	top: 0px; /* -155 */
+	left: 0px;  /* -106 */
+	width: 1052px;
+	height: 51px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.label_task_name {
+	position: absolute;
+	top: 17px;
+	left: 10px;
+	width: 63px;
+	height: 16px;
+	text-align: left;
+	font: normal normal bold 16px/16px SF Pro Text;
+	letter-spacing: -0.48px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.label_status {
+	position: absolute;
+	top: 17px;
+	left: 185px;
+	width: 78px;
+	height: 16px;
+	text-align: left;
+	font: normal normal bold 16px/16px SF Pro Text;
+	letter-spacing: -0.48px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.label_system_link {
+	position: absolute;
+	top: 17px;
+	left: 343px;
+	width: 138px;
+	height: 16px;
+	text-align: left;
+	font: normal normal bold 16px/16px SF Pro Text;
+	letter-spacing: -0.48px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.label_deadline {
+	position: absolute;
+	top: 17px;
+	left: 533px;
+	width: 32px;
+	height: 16px;
+	text-align: left;
+	font: normal normal bold 16px/16px SF Pro Text;
+	letter-spacing: -0.48px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.label_product_name {
+	position: absolute;
+	top: 17px;
+	left: 685px;
+	width: 47px;
+	height: 16px;
+	text-align: left;
+	font: normal normal bold 16px/16px SF Pro Text;
+	letter-spacing: -0.48px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.label_process {
+	position: absolute;
+	top: 17px;
+	left: 861px;
+	width: 63px;
+	height: 16px;
+	text-align: left;
+	font: normal normal bold 16px/16px SF Pro Text;
+	letter-spacing: -0.48px;
+	color: #212529;
+	opacity: 1;		
+}
+
+/* タスク一覧内容 */
+.task_name1 {
+	position: absolute;
+	top: 64px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status1 {
+	position: absolute;
+	top: 64px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link1 {
+	position: absolute;
+	top: 64px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline1 {
+	position: absolute;
+	top: 64px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name1 {
+	position: absolute;
+	top: 64px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process1 {
+	position: absolute;
+	top: 64px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name2 {
+	position: absolute;
+	top: 135px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status2 {
+	position: absolute;
+	top: 135px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link2 {
+	position: absolute;
+	top: 135px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline2 {
+	position: absolute;
+	top: 135px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name2 {
+	position: absolute;
+	top: 135px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process2 {
+	position: absolute;
+	top: 135px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name3 {
+	position: absolute;
+	top: 206px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status3 {
+	position: absolute;
+	top: 206px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link3 {
+	position: absolute;
+	top: 206px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline3 {
+	position: absolute;
+	top: 206px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name3 {
+	position: absolute;
+	top: 206px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process3 {
+	position: absolute;
+	top: 206px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name4 {
+	position: absolute;
+	top: 277px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status4 {
+	position: absolute;
+	top: 277px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link4 {
+	position: absolute;
+	top: 277px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline4 {
+	position: absolute;
+	top: 277px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name4 {
+	position: absolute;
+	top: 277px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process4 {
+	position: absolute;
+	top: 277px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name5 {
+	position: absolute;
+	top: 348px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status5 {
+	position: absolute;
+	top: 348px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link5 {
+	position: absolute;
+	top: 348px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline5 {
+	position: absolute;
+	top: 348px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name5 {
+	position: absolute;
+	top: 348px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process5 {
+	position: absolute;
+	top: 348px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name6 {
+	position: absolute;
+	top: 419px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status6 {
+	position: absolute;
+	top: 419px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link6 {
+	position: absolute;
+	top: 419px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline6 {
+	position: absolute;
+	top: 419px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name6 {
+	position: absolute;
+	top: 419px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process6 {
+	position: absolute;
+	top: 419px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name7 {
+	position: absolute;
+	top: 490px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status7 {
+	position: absolute;
+	top: 490px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link7 {
+	position: absolute;
+	top: 490px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline7 {
+	position: absolute;
+	top: 490px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name7 {
+	position: absolute;
+	top: 490px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process7 {
+	position: absolute;
+	top: 490px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name8 {
+	position: absolute;
+	top: 561px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status8 {
+	position: absolute;
+	top: 561px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link8 {
+	position: absolute;
+	top: 561px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline8 {
+	position: absolute;
+	top: 561px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name8 {
+	position: absolute;
+	top: 561px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process8 {
+	position: absolute;
+	top: 561px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name9 {
+	position: absolute;
+	top: 632px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status9 {
+	position: absolute;
+	top: 632px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link9 {
+	position: absolute;
+	top: 632px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline9 {
+	position: absolute;
+	top: 632px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name9 {
+	position: absolute;
+	top: 632px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process9 {
+	position: absolute;
+	top: 632px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name10 {
+	position: absolute;
+	top: 703px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status10 {
+	position: absolute;
+	top: 703px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link10 {
+	position: absolute;
+	top: 703px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline10 {
+	position: absolute;
+	top: 703px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name10 {
+	position: absolute;
+	top: 703px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process10 {
+	position: absolute;
+	top: 703px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name11 {
+	position: absolute;
+	top: 774px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status11 {
+	position: absolute;
+	top: 774px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link11 {
+	position: absolute;
+	top: 774px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline11 {
+	position: absolute;
+	top: 774px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name11 {
+	position: absolute;
+	top: 774px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process11 {
+	position: absolute;
+	top: 774px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.task_name12 {
+	position: absolute;
+	top: 845px;
+	left: 9px;
+	width: 87px;
+	height: 18px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.status12 {
+	position: absolute;
+	top: 845px;
+	left: 184px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.system_link12 {
+	position: absolute;
+	top: 845px;
+	left: 342px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.deadline12 {
+	position: absolute;
+	top: 845px;
+	left: 526px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.product_name12 {
+	position: absolute;
+	top: 845px;
+	left: 683px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.process12 {
+	position: absolute;
+	top: 845px;
+	left: 864px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.bar0 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.bar1 {
+	position: absolute;
+	top: 51px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.bar2 {
+	position: absolute;
+	top: 122px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.bar3 {
+	position: absolute;
+	top: 193px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.bar4 {
+	position: absolute;
+	top: 264px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar5 {
+	position: absolute;
+	top: 335px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar6 {
+	position: absolute;
+	top: 406px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar7 {
+	position: absolute;
+	top: 477px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar8 {
+	position: absolute;
+	top: 548px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar9 {
+	position: absolute;
+	top: 619px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar10 {
+	position: absolute;
+	top: 690px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar11 {
+	position: absolute;
+	top: 761px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar12 {
+	position: absolute;
+	top: 832px;
+	left: 0px;
+	width: 1052px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+/* ここまで */

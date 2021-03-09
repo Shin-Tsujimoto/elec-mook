@@ -1,0 +1,755 @@
+/* リセットCSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 大枠 */
+body {
+	top: 0px;
+    left: 0px;
+    width: 1194px;
+    height: 834px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/* ヘッダー */
+header {
+    top: 0px;
+    left: 1px;
+    width: 1194px;
+    height: 60px;
+	
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.cloud-fill {
+	position: absolute;
+    top: 14px;
+	left: 85px;
+	width: 48px;
+	height: 33px;
+	background: transparent url('img/cloud-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.box-arrow-right {
+	position: absolute;
+	top: 13px;
+	left: 1134px;
+	width: 47px;
+	height: 34px;
+	background: transparent url('img/box-arrow-right.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/* 検索欄 */
+.user_name_box {
+	position: absolute;
+	top: 11px;
+	left: 678px;
+	width: 159px;
+	height: 37px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.user_name {
+	position: absolute;
+	top: 22px;
+	left: 695px;
+	width: 63px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/16px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;
+}
+
+.search_box {
+	position: absolute;
+	top: 11px;
+	left: 847px;
+	width: 152px;
+	height: 37px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.search_button {
+	position: absolute;
+	top: 6px;
+	left: 1015px;
+	width: 83px;
+	height: 46px;
+	background: #325FB4 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 31px;
+	opacity: 1;
+}
+
+.search_button_text {
+	position: absolute;
+	top: 18px;
+	left: 1034px;
+	width: 46px;
+	height: 23px;
+	text-align: center;
+	font: normal normal normal 23px/24px SF Pro Text;
+	letter-spacing: -0.44px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+/* メニュー */
+.menu {
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	width: 68px;
+	height: 834px;
+	background: #325FB4 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.select {
+	position: absolute;
+	top: 428px;
+	left: 0px;
+	width: 68px;
+	height: 58px;
+	background: #1513135A 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.list {
+	position: absolute;
+	top: 19px;
+	left: 18px;
+	width: 34px;
+	height: 28px;
+	background: transparent url('img/customer_information_portal/list.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.house-fill {
+	position: absolute;
+	top: 101px;
+	left: 15px;
+	width: 36px;
+	height: 39px;
+	background: transparent url('img/customer_information_portal/house-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.table {
+	position: absolute;
+	top: 168px;
+	left: 14px;
+	width: 43px;
+	height: 43px;
+	background: transparent url('img/customer_information_portal/table.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.layout-split {
+	position: absolute;
+	top: 235px;
+	left: 14px;
+	width: 45px;
+	height: 40px;
+	background: transparent url('img/customer_information_portal/layout-split.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.list-task {
+	position: absolute;
+	top: 303px;
+	left: 12px;
+	width: 45px;
+	height: 34px;
+	background: transparent url('img/customer_information_portal/list-task.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.list-check {
+	position: absolute;
+	top: 364px;
+	left: 8px;
+	width: 53px;
+	height: 40px;
+	background: transparent url('img/customer_information_portal/list-check.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.people-fill {
+	position: absolute;
+	top: 433px;
+	left: 10px;
+	width: 54px;
+	height: 41px;
+	background: transparent url('img/customer_information_portal/people-fill.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/* 行動履歴 */
+.customer_action_list {
+	position: absolute;
+	top: 97px;
+	left: 105px;
+	width: 102px;
+	height: 26px;	
+	text-align: left;
+	font: normal normal bold 26px/25px SF Pro Text;
+	letter-spacing: -0.78px;
+	color: #212529;
+	opacity: 1;
+}
+
+.name_box {
+	position: absolute;
+	top: 97px;
+	left: 243px;
+	width: 102px;
+	height: 26px;
+	background: #F8F9FA 0% 0% no-repeat padding-box;
+	border-radius: 160px;
+	opacity: 1;		
+}
+
+.name {
+	position: absolute;
+	top: 104px;
+	left: 268px;
+	width: 52px;
+	height: 13px;
+	text-align: left;
+	font: normal normal bold 13px/13px SF Pro Text;
+	letter-spacing: 0px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.customer_action_list_body {
+	position: absolute;
+	top: 151px;
+	left: 104px;
+	width: 1043px;
+	height: 605px;
+	opacity: 1;	
+}
+
+.label_body {
+	position: absolute;
+	top: 151px;
+	left: 104px;
+	width: 1043px;
+	height: 51px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.label_company_name {
+	position: absolute;
+	top: 168px;
+	left: 114px;
+	width: 32px;
+	height: 16px;
+	text-align: left;
+	font: normal normal bold 16px/16px SF Pro Text;
+	letter-spacing: -0.48px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.label_head_leader {
+	position: absolute;
+	top: 168px;
+	left: 409px;
+	width: 47px;
+	height: 16px;
+	text-align: left;
+	font: normal normal bold 16px/16px SF Pro Text;
+	letter-spacing: -0.48px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.label_date {
+	position: absolute;
+	top: 168px;
+	left: 523px;
+	width: 32px;
+	height: 16px;
+	text-align: left;
+	font: normal normal bold 16px/16px SF Pro Text;
+	letter-spacing: -0.48px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.label_content {
+	position: absolute;
+	top: 168px;
+	left: 660px;
+	width: 32px;
+	height: 16px;
+	text-align: left;
+	font: normal normal bold 16px/16px SF Pro Text;
+	letter-spacing: -0.48px;
+	color: #212529;
+	opacity: 1;		
+}
+
+/* 行動履歴一覧 */
+.company_name1 {
+	position: absolute;
+	top: 219px;
+	left: 114px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.head_leader1 {
+	position: absolute;
+	top: 219px;
+	left: 411px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.date1 {
+	position: absolute;
+	top: 221px;
+	left: 522px;
+	width: 200px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 13px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;
+}
+
+.content1 {
+	position: absolute;
+	top: 219px;
+	left: 665px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.company_name2 {
+	position: absolute;
+	top: 290px;
+	left: 114px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.head_leader2 {
+	position: absolute;
+	top: 290px;
+	left: 411px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.date2 {
+	position: absolute;
+	top: 292px;
+	left: 522px;
+	width: 200px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 13px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.content2 {
+	position: absolute;
+	top: 290px;
+	left: 665px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.company_name3 {
+	position: absolute;
+	top: 361px;
+	left: 114px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.head_leader3 {
+	position: absolute;
+	top: 361px;
+	left: 411px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.date3 {
+	position: absolute;
+	top: 363px;
+	left: 522px;
+	width: 200px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 13px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.content3 {
+	position: absolute;
+	top: 361px;
+	left: 665px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.company_name4 {
+	position: absolute;
+	top: 432px;
+	left: 114px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.head_leader4 {
+	position: absolute;
+	top: 432px;
+	left: 411px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.date4 {
+	position: absolute;
+	top: 434px;
+	left: 522px;
+	width: 200px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 13px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.content4 {
+	position: absolute;
+	top: 432px;
+	left: 665px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.company_name5 {
+	position: absolute;
+	top: 503px;
+	left: 114px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.head_leader5 {
+	position: absolute;
+	top: 503px;
+	left: 411px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.date5 {
+	position: absolute;
+	top: 505px;
+	left: 522px;
+	width: 120px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 13px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.content5 {
+	position: absolute;
+	top: 503px;
+	left: 665px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.company_name6 {
+	position: absolute;
+	top: 574px;
+	left: 114px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.head_leader6 {
+	position: absolute;
+	top: 574px;
+	left: 411px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.date6 {
+	position: absolute;
+	top: 576px;
+	left: 522px;
+	width: 120px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 13px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.content6 {
+	position: absolute;
+	top: 574px;
+	left: 665px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.company_name7 {
+	position: absolute;
+	top: 645px;
+	left: 114px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;	
+}
+
+.head_leader7 {
+	position: absolute;
+	top: 645px;
+	left: 411px;
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.date7 {
+	position: absolute;
+	top: 647px;
+	left: 522px;
+	width: 120px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 13px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.content7 {
+	position: absolute;
+	top: 645px;
+	left: 665px;
+	width: 300px;
+	height: 16px;
+	text-align: left;
+	font: normal normal normal 16px/24px SF Pro Text;
+	letter-spacing: -0.3px;
+	color: #212529;
+	opacity: 1;		
+}
+
+.bar0 {
+	position: absolute;
+	top: 151px;
+	left: 104px;
+	width: 1043px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.bar1 {
+	position: absolute;
+	top: 202px;
+	left: 104px;
+	width: 1043px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.bar2 {
+	position: absolute;
+	top: 273px;
+	left: 104px;
+	width: 1043px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.bar3 {
+	position: absolute;
+	top: 344px;
+	left: 104px;
+	width: 1043px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;		
+}
+
+.bar4 {
+	position: absolute;
+	top: 415px;
+	left: 104px;
+	width: 1043px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar5 {
+	position: absolute;
+	top: 486px;
+	left: 104px;
+	width: 1043px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar6 {
+	position: absolute;
+	top: 557px;
+	left: 104px;
+	width: 1043px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+.bar7 {
+	position: absolute;
+	top: 628px;
+	left: 104px;
+	width: 1043px;
+	height: 1px;
+	background: #DEE2E6 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+/* ここまで */
